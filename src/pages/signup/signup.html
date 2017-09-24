@@ -1,0 +1,64 @@
+<ion-content class="signUpBox">
+
+
+    <div id="inicioCMHeadBox">
+
+      <div id="logoInicioCMBox">
+        <img id="logoInicioCM" src="../../assets/images/CC.png">
+      </div>
+
+      <div id="topText">
+        Asociación para el desarrollo <br>
+        del Campo de Calatrava
+      </div>
+
+    </div>
+
+
+
+    <form>
+
+      <input class="formField" type="text" name="name" placeholder="Nombre" required>
+
+
+      <input class="formField" type="text" name="lastName" placeholder="Apellidos" required>
+
+      <label class="label">
+        Fecha de nacimiento
+      </label>
+
+      <input class="formFieldDate" type="datetime-local" name="day" placeholder="día" required>
+      <input class="formFieldDate" type="datetime-local" name="month" placeholder="mes" required>
+      <input class="formFieldDate" type="datetime-local" name="year" placeholder="año" required>
+
+      <input class="formField" type="text" name="location" placeholder="Localidad" required>
+
+      <input class="formField" type="email" name="email" placeholder="eMail" required>
+
+      <input class="formField" type="text" name="company" placeholder="Empresa (opcional)">
+
+      <input class="formField" type="url" name="personalSite" placeholder="Web (opcional)">
+
+      <!-- <input class="formField" type="password" name="password" placeholder="Password" required> -->
+
+      <input class="checkBox" type="checkBox" name="cbox1"> <label id="politics" for="cbox1"> Aceptar política de datos </label>
+
+
+<!--
+      <% if (typeof message !== "undefined") { %>
+
+        <div class="error-message">
+          <%= message %>
+        </div>
+
+      <% } %> -->
+
+
+    </form>
+
+
+  <div class="continueButtonBox">
+    <button class="continueButton" ion-button full>Continuar</button>
+  </div>
+
+</ion-content>

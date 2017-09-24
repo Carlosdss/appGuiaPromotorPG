@@ -1,11 +1,16 @@
 
+@font-face {
+    font-family: "HelveticaNeue-CondensedBold";
+    src: url(../../assets/fonts/HelveticaNeue-CondensedBold.ttf) format('truetype');
+}
 
   .grid-basic-page {
 
     background-color: rgb(224, 248, 254);
     background-image: url(../../assets/images/Inicio_0004s_0003s_0000__Recortar-grupo_.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    position: relative;
 
     ion-col div {
       background-color: #f0f5ff;
@@ -13,7 +18,6 @@
       border-radius: 2px;
       padding: 5px;
       text-align: center;
-
     }
 
     p {
@@ -31,6 +35,24 @@
       width: 20vw;
     }
 
+    #welcomeHeader{
+      clear: both;
+      font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      font-size: 2.7em;
+      color: rgb(0, 106, 165);
+    }
+
+    #welcomeText{
+      font-size: 1.65em;
+      color: rgb(0, 106, 165);
+      text-align: left;
+    }
+    #welcomTextRed{
+      color: rgb(180, 0, 43);
+      font-weight: bold;
+    }
+
     .button{
       width: 80vw;
       font-weight: bold;
@@ -40,11 +62,12 @@
   text-align: center;
 }
     .signUp{
+      margin-top: 8vh;
       color: white;
       background-color: rgb(0, 106, 165);
       text-transform: none;
       border-radius: 10px;
-      height: 7vh;
+      height: 7.5vh;
       font-size: 23px;
     }
 
@@ -54,21 +77,39 @@
       border: 0.2px solid rgb(0, 106, 165);
       text-transform: none;
       border-radius: 10px;
-      height: 7vh;
+      height: 7.5vh;
       font-size: 23px;
     }
 
-    .testButton{
-      color: rgb(0, 106, 165);
-      background-color: white;
-      border: 0.2px solid rgb(0, 106, 165);
-      text-transform: none;
-      border-radius: 10px;
-      height: 7vh;
-      font-size: 23px;
-      width: 90vw;
-    }
+#footText{
+  text-align: center;
+  color: rgb(0, 106, 165);
+  font-size: 0.8em;
+  margin-top: 4vh;
+}
+
+#footerBox{
+text-align: center;
+vertical-align: middle;
+position: absolute;
+bottom: 0;
+background-color: white;
+padding-top: 3%;
+padding-bottom: 3%;
+}
+
+.footerPicBox1{
+  width: 19%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.footerPicBox2{
+  width: 39%;
+  padding-top: 2%;
+  vertical-align: middle;
+  display: inline-block;
+}
 
 
-
-  }
+}
