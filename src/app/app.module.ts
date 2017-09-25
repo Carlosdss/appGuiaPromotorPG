@@ -8,13 +8,17 @@ import { MyApp } from './app.component';
 import { Inicio } from '../pages/inicio/inicio';
 import { Signup } from '../pages/signup/signup';
 import { ScrollColours } from '../pages/scroll-colours/scroll-colours';
+import { TipoBeneficiario } from '../pages/tipo-beneficiario/tipo-beneficiario';
+import { TipoProyecto } from '../pages/tipo-proyecto/tipo-proyecto';
 
 @NgModule({
   declarations: [
     MyApp,
     Inicio,
     Signup,
-    ScrollColours
+    ScrollColours,
+    TipoBeneficiario,
+    TipoProyecto
   ],
   imports: [
     BrowserModule,
@@ -25,7 +29,9 @@ import { ScrollColours } from '../pages/scroll-colours/scroll-colours';
     MyApp,
     Inicio,
     Signup,
-    ScrollColours
+    ScrollColours,
+    TipoBeneficiario,
+    TipoProyecto
   ],
   providers: [
     StatusBar,
