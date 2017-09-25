@@ -4,13 +4,14 @@
     src: url(../../assets/fonts/HelveticaNeue-CondensedBold.ttf) format('truetype');
 }
 
-  .grid-basic-page {
-
+  .container {
     background-color: rgb(224, 248, 254);
     background-image: url(../../assets/images/Inicio_0004s_0003s_0000__Recortar-grupo_.png);
     background-position: center;
     background-size: cover;
+    min-height: 100%;
     position: relative;
+  }
 
     ion-col div {
       background-color: #f0f5ff;
@@ -39,12 +40,12 @@
       clear: both;
       font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: bold;
-      font-size: 2.7em;
+      font-size: 2.5em;
       color: rgb(0, 106, 165);
     }
 
     #welcomeText{
-      font-size: 1.65em;
+      font-size: 1.4em;
       color: rgb(0, 106, 165);
       text-align: left;
     }
@@ -86,16 +87,19 @@
   color: rgb(0, 106, 165);
   font-size: 0.8em;
   margin-top: 4vh;
+  padding-bottom: 60px;
 }
+
 
 #footerBox{
 text-align: center;
+height: 60px;
 vertical-align: middle;
+background-color: white;
+padding-top: 10px;
+padding-bottom: 5px;
 position: absolute;
 bottom: 0;
-background-color: white;
-padding-top: 3%;
-padding-bottom: 3%;
 }
 
 .footerPicBox1{
@@ -109,7 +113,4 @@ padding-bottom: 3%;
   padding-top: 2%;
   vertical-align: middle;
   display: inline-block;
-}
-
-
 }

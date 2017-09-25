@@ -1,0 +1,85 @@
+page-scroll-colours {
+
+}
+
+
+@font-face {
+    font-family: "HelveticaNeue-CondensedBlack";
+    src: url(../../assets/fonts/HelveticaNeue-CondensedBlack.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "HelveticaNeue-Bold";
+    src: url(../../assets/fonts/HelveticaNeue-Bold.ttf) format('truetype');
+}
+
+.container{
+  text-align: center;
+}
+
+.block{
+  height: 250px;
+  background-image: url(../../assets/images/cruz.png);
+  background-position: center;
+  background-size:cover;
+  font-family: "HelveticaNeue-Bold";
+  color: white;
+  padding-top: 60px;
+  font-size: 2em;
+  position: relative;
+    line-height: 1;
+}
+
+.raimundoBox{
+ width: 100%;
+}
+
+.raimundoIcon{
+  width: 45%;
+}
+
+
+.checkMarkBox{
+ position: absolute;
+ bottom: 5%;
+ width: 100%;
+}
+
+.checkIcon{
+  width: 20%;
+}
+
+.emphasis{
+  font-size: 1.8em;
+}
+
+#topBlock{
+  padding-top: 0;
+  background-color: rgb(0, 183, 251);
+  font-family: "HelveticaNeue-CondensedBlack";
+  font-size: 2.5em;
+}
+
+#blue{
+  background-color: rgb(25, 143, 255);
+}
+
+#red{
+  background-color: rgb(255, 99, 72);
+}
+
+#green{
+  background-color: rgb(0, 253, 180);
+}
+
+#yellow{
+  background-color: rgb(223, 250, 0);
+}
+
+#orange{
+  background-color: rgb(255, 162, 63);
+}
+
+#grey{
+  background-color: rgb(179, 208, 218);
+}

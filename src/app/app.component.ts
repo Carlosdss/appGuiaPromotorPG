@@ -6,12 +6,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { Inicio } from '../pages/inicio/inicio';
 import { Signup } from '../pages/signup/signup';
+import { ScrollColours } from '../pages/scroll-colours/scroll-colours';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = Inicio;
+  rootPage:any = ScrollColours;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

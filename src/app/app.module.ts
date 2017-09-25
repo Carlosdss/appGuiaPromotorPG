@@ -7,12 +7,14 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { Inicio } from '../pages/inicio/inicio';
 import { Signup } from '../pages/signup/signup';
+import { ScrollColours } from '../pages/scroll-colours/scroll-colours';
 
 @NgModule({
   declarations: [
     MyApp,
     Inicio,
-    Signup
+    Signup,
+    ScrollColours
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { Signup } from '../pages/signup/signup';
   entryComponents: [
     MyApp,
     Inicio,
-    Signup
+    Signup,
+    ScrollColours
   ],
   providers: [
     StatusBar,
