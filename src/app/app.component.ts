@@ -15,7 +15,7 @@ import { TipoProyecto } from '../pages/tipo-proyecto/tipo-proyecto';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = TipoProyecto;
+  rootPage:any = TipoBeneficiario;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
