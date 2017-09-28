@@ -9,13 +9,14 @@ import { Signup } from '../pages/signup/signup';
 import { ScrollColours } from '../pages/scroll-colours/scroll-colours';
 import { TipoBeneficiario } from '../pages/tipo-beneficiario/tipo-beneficiario';
 import { TipoProyecto } from '../pages/tipo-proyecto/tipo-proyecto';
+import { Completed65 } from '../pages/completed65/completed65';
 
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = TipoBeneficiario;
+  rootPage:any = Completed65;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

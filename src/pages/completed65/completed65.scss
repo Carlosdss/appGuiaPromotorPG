@@ -1,0 +1,138 @@
+page-completed65 {
+
+  @font-face {
+      font-family: "HelveticaNeue-CondensedBold";
+      src: url(../../assets/fonts/HelveticaNeue-CondensedBold.ttf) format('truetype');
+  }
+
+  @font-face {
+      font-family: "HelveticaNeue-CondensedBlack";
+      src: url(../../assets/fonts/HelveticaNeue-CondensedBlack.ttf) format('truetype');
+  }
+
+.containerCompleted65{
+  background-color: white;
+  min-height: 100%;
+  position: relative;
+}
+
+#topBlockCompleted65{
+  height: auto;
+  vertical-align: middle;
+  padding-top: 10px;
+  font-family: "HelveticaNeue-CondensedBold";
+}
+
+#topBlockCompleted65Left{
+  float: left;
+  width: 39%;
+  background-color: rgb(0, 183, 251);
+  font-size: 4.4em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#topBlockCompleted65Right{
+  float: right;
+  width: 61%;
+  color: rgb(0, 183, 251);
+  font-size: 2em;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  line-height: 1.1;
+  vertical-align: middle;
+}
+
+#raimundoBoxCompleted65{
+  clear: both;
+  text-align: center;
+}
+
+#raimundoFooterBox{
+  text-align: center;
+  font-size: 1.7em;
+  line-height: 0.8;
+  p {
+    font-family: "HelveticaNeue-CondensedBlack";
+    color: rgb(0, 183, 251);
+    text-transform: uppercase;
+    font-size: 2.1em;
+    font-weight: bold;
+  }
+}
+
+#mundoText{
+  text-align: right;
+  font-style: italic;
+  padding-right: 20px;
+  padding-top: 15px;
+  font-size: 1.2em;
+  padding-bottom: 50px;
+}
+
+#footerButtonsBox{
+background-color: rgb(0, 183, 251);
+
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 0;
+
+ion-segment-button {
+  border: 0px;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+  height: 40px;
+  font-size: 1.3em;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+button {
+  color: white;
+  max-width: 100%;
+  padding: 0px;
+  border-radius: 0;
+  margin: 0;
+  font-weight: lighter;
+}
+
+
+#continueButtonBox{
+  width: 50%;
+  float: left;
+  border: 0px;
+  text-align: center;
+}
+
+#shareButtonBox{
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+ #buttonContinue{
+   background-color: rgb(143, 219, 253);
+   color: white;
+   max-width: 100%;
+    padding: 0px;
+ }
+#buttonShare{
+   background-color: rgb(0, 183, 251);
+   color: white;
+   max-width: 100%;
+   padding: 0px;
+}
+
+}
+
+}

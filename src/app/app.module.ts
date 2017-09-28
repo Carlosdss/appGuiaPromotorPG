@@ -10,6 +10,7 @@ import { Signup } from '../pages/signup/signup';
 import { ScrollColours } from '../pages/scroll-colours/scroll-colours';
 import { TipoBeneficiario } from '../pages/tipo-beneficiario/tipo-beneficiario';
 import { TipoProyecto } from '../pages/tipo-proyecto/tipo-proyecto';
+import { Completed65 } from '../pages/completed65/completed65';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TipoProyecto } from '../pages/tipo-proyecto/tipo-proyecto';
     Signup,
     ScrollColours,
     TipoBeneficiario,
-    TipoProyecto
+    TipoProyecto,
+    Completed65
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { TipoProyecto } from '../pages/tipo-proyecto/tipo-proyecto';
     Signup,
     ScrollColours,
     TipoBeneficiario,
-    TipoProyecto
+    TipoProyecto,
+    Completed65
   ],
   providers: [
     StatusBar,
