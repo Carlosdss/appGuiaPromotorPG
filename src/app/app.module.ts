@@ -11,6 +11,7 @@ import { ScrollColours } from '../pages/scroll-colours/scroll-colours';
 import { TipoBeneficiario } from '../pages/tipo-beneficiario/tipo-beneficiario';
 import { TipoProyecto } from '../pages/tipo-proyecto/tipo-proyecto';
 import { Completed65 } from '../pages/completed65/completed65';
+import { Plazos } from '../pages/plazos/plazos';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Completed65 } from '../pages/completed65/completed65';
     ScrollColours,
     TipoBeneficiario,
     TipoProyecto,
-    Completed65
+    Completed65,
+    Plazos
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { Completed65 } from '../pages/completed65/completed65';
     ScrollColours,
     TipoBeneficiario,
     TipoProyecto,
-    Completed65
+    Completed65,
+    Plazos
   ],
   providers: [
     StatusBar,
