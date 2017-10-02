@@ -1,3 +1,59 @@
 page-plazos {
 
+  @font-face {
+      font-family: "HelveticaNeue-CondensedBlack";
+      src: url(../../assets/fonts/HelveticaNeue-CondensedBlack.ttf) format('truetype');
+  }
+
+  @font-face {
+      font-family: "HelveticaNeue-Thin";
+      src: url(../../assets/fonts/HelveticaNeue-Thin.ttf) format('truetype');
+  }
+
+
+  .mainBoxPlazos{
+    background-color: rgb(0, 146, 247);
+    min-height: 90vh;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    #mainBoxPlazosText{
+      font-family: "HelveticaNeue-CondensedBlack";
+      color: white;
+      font-size: 4em;
+    }
+
+    #buttonPlazos{
+      font-family: "HelveticaNeue-Thin";
+      font-weight: lighter;
+      font-size: 2.2em;
+      background-color: rgb(0, 149, 217);
+      border: 1.5px solid white;
+      border-radius: 50%;
+      width:90px;
+      height:90px;
+      line-height:90px;
+      margin-top: 90px;
+      margin-bottom: 40px;
+    }
+  }
+
+#footTextPlazos{
+  color: rgb(0, 146, 247);
+  font-family: "HelveticaNeue-Thin";
+  text-align: center;
+  font-size: 1.35em;
+  padding-top: 2px;
+}
+
+#mainBoxPlazosPic{
+  max-width: 200px;
+}
+
 }

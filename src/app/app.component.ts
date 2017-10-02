@@ -11,13 +11,15 @@ import { TipoBeneficiario } from '../pages/tipo-beneficiario/tipo-beneficiario';
 import { TipoProyecto } from '../pages/tipo-proyecto/tipo-proyecto';
 import { Completed65 } from '../pages/completed65/completed65';
 import { Plazos } from '../pages/plazos/plazos';
-
+import { Operacion } from '../pages/operacion/operacion';
+import { OrganoConcedente } from '../pages/organo-concedente/organo-concedente';
+import { ConsejosUtiles } from '../pages/consejos-utiles/consejos-utiles';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = Plazos;
+  rootPage:any = ConsejosUtiles;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

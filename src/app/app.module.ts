@@ -12,6 +12,9 @@ import { TipoBeneficiario } from '../pages/tipo-beneficiario/tipo-beneficiario';
 import { TipoProyecto } from '../pages/tipo-proyecto/tipo-proyecto';
 import { Completed65 } from '../pages/completed65/completed65';
 import { Plazos } from '../pages/plazos/plazos';
+import { Operacion } from '../pages/operacion/operacion';
+import { OrganoConcedente } from '../pages/organo-concedente/organo-concedente';
+import { ConsejosUtiles } from '../pages/consejos-utiles/consejos-utiles';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import { Plazos } from '../pages/plazos/plazos';
     TipoBeneficiario,
     TipoProyecto,
     Completed65,
-    Plazos
+    Plazos,
+    Operacion,
+    OrganoConcedente
   ],
   imports: [
     BrowserModule,
@@ -37,7 +42,9 @@ import { Plazos } from '../pages/plazos/plazos';
     TipoBeneficiario,
     TipoProyecto,
     Completed65,
-    Plazos
+    Plazos,
+    Operacion,
+    OrganoConcedente
   ],
   providers: [
     StatusBar,
