@@ -1,3 +1,171 @@
 page-consejos-utiles {
 
+  @font-face {
+      font-family: "HelveticaNeue-CondensedBlack";
+      src: url(../../assets/fonts/HelveticaNeue-CondensedBlack.ttf) format('truetype');
+  }
+
+  @font-face {
+      font-family: "HelveticaNeue-Thin";
+      src: url(../../assets/fonts/HelveticaNeue-Thin.ttf) format('truetype');
+  }
+
+  @font-face {
+      font-family: "HelveticaNeue-CondensedBold";
+      src: url(../../assets/fonts/HelveticaNeue-CondensedBold.ttf) format('truetype');
+  }
+
+#topBlockConsejos{
+  background-color: rgb(0, 183, 251);
+  padding:30px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+  #topTextConsejos{
+    font-size: 3em;
+    font-family: "HelveticaNeue-CondensedBold";
+  }
+}
+
+
+.boxConsejos{
+  background-color: rgb(0, 146, 247);
+  min-height: 90%;
+  margin-top: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+
+  img {
+    max-width: 180px;
+  }
+
+  #boxConsejosText{
+    font-family: "HelveticaNeue-CondensedBlack";
+    color: white;
+    font-size: 4em;
+  }
+
+  #buttonConsejos{
+    font-family: "HelveticaNeue-Thin";
+    font-weight: lighter;
+    font-size: 2.2em;
+    background-color: rgb(0, 149, 217);
+    border: 1.5px solid white;
+    border-radius: 50%;
+    width:90px;
+    height:90px;
+    line-height:90px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+  }
+
+
+}
+
+#turquoiseBox{
+  background-color: rgb(34, 198, 204);
+}
+
+#blueBox{
+  background-color: rgb(0, 192, 255);
+}
+
+#greenBox{
+  background-color: rgb(0, 213, 147);
+}
+
+#greyBox{
+  background-color: rgb(179, 208, 218);
+}
+
+#mustardBox{
+  background-color: rgb(209, 222, 5);
+}
+
+#orangeBox{
+  background-color: rgb(234, 105, 0);
+}
+
+#peachBox{
+  background-color: rgb(255, 99, 71);
+}
+
+#redBox{
+  background-color: rgb(246, 53, 25);
+}
+
+#deepRedBox{
+  background-color: rgb(176, 0, 0);
+}
+
+
+#footerButtonsBox{
+  margin-top: 10px;
+background-color: rgb(0, 183, 251);
+
+ion-segment-button {
+  border: 0px;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+  height: 40px;
+  font-size: 1.3em;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+button {
+  color: white;
+  max-width: 100%;
+  padding: 0px;
+  border-radius: 0;
+  margin: 0;
+  font-weight: lighter;
+}
+
+
+#backButtonBox{
+  width: 50%;
+  float: left;
+  border: 0px;
+  text-align: center;
+}
+
+#continueButtonBox{
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+ #buttonBack{
+   background-color: rgb(143, 219, 253);
+   color: white;
+   max-width: 100%;
+    padding: 0px;
+ }
+#buttonContinue{
+   background-color: rgb(0, 183, 251);
+   color: white;
+   max-width: 100%;
+   padding: 0px;
+}
+
+}
+
+
+
+
+
+
+
+
 }

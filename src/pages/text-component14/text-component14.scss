@@ -1,0 +1,101 @@
+page-text-component14 {
+
+  .boxTextGeneral{
+    position: relative;
+    min-height: 100%;
+  }
+
+  .boxTextContainer{
+    padding: 22px;
+    color: rgb(155, 151, 157);
+    padding-bottom: 50px;
+    font-size: 1.3em;
+
+    #textTitleBlue{
+      font-weight: bold;
+      padding-top: 15px;
+      padding-bottom: 10px;
+
+      color: rgb(0, 183, 251);
+    }
+
+    #textBodyItalicRed{
+      font-style: italic;
+      color: red;
+
+      padding-top: 5px;
+      padding-bottom: 25px;
+    }
+
+    #textSubTitleBlue{
+      padding-bottom: 10px;
+
+      color: rgb(0, 183, 251);
+    }
+
+    #textBody{
+
+      padding-top: 5px;
+      padding-bottom: 25px;
+    }
+
+  }
+
+  #footerButtonsBox{
+    margin-top: 10px;
+  background-color: rgb(0, 183, 251);
+  position: absolute;
+  bottom: 0;
+
+  ion-segment-button {
+    border: 0px;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    height: 40px;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+  }
+
+  button {
+    color: white;
+    max-width: 100%;
+    padding: 0px;
+    border-radius: 0;
+    margin: 0;
+    font-weight: lighter;
+  }
+
+  #backButtonBox{
+    width: 50%;
+    float: left;
+    border: 0px;
+    text-align: center;
+  }
+
+  #continueButtonBox{
+    width: 50%;
+    float: right;
+    text-align: center;
+  }
+
+   #buttonBack{
+     background-color: rgb(143, 219, 253);
+     color: white;
+     max-width: 100%;
+      padding: 0px;
+   }
+  #buttonContinue{
+     background-color: rgb(0, 183, 251);
+     color: white;
+     max-width: 100%;
+     padding: 0px;
+  }
+
+  }
+
+}

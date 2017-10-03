@@ -15,6 +15,9 @@ import { Plazos } from '../pages/plazos/plazos';
 import { Operacion } from '../pages/operacion/operacion';
 import { OrganoConcedente } from '../pages/organo-concedente/organo-concedente';
 import { ConsejosUtiles } from '../pages/consejos-utiles/consejos-utiles';
+import { TextComponent12 } from '../pages/text-component12/text-component12';
+import { TextComponent13 } from '../pages/text-component13/text-component13';
+import { TextComponent14 } from '../pages/text-component14/text-component14';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,9 @@ import { ConsejosUtiles } from '../pages/consejos-utiles/consejos-utiles';
     Completed65,
     Plazos,
     Operacion,
-    OrganoConcedente
+    OrganoConcedente,
+    ConsejosUtiles,
+    TextComponent12, TextComponent13, TextComponent14
   ],
   imports: [
     BrowserModule,
@@ -44,7 +49,9 @@ import { ConsejosUtiles } from '../pages/consejos-utiles/consejos-utiles';
     Completed65,
     Plazos,
     Operacion,
-    OrganoConcedente
+    OrganoConcedente,
+    ConsejosUtiles,
+    TextComponent12, TextComponent13, TextComponent14
   ],
   providers: [
     StatusBar,
