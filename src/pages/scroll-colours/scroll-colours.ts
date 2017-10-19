@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { TipoBeneficiario } from '../tipo-beneficiario/tipo-beneficiario';
 
 /**
  * Generated class for the ScrollColoursPage page.
@@ -16,6 +17,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class ScrollColours{
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  goToPage(){
+    this.navCtrl.push(TipoBeneficiario);
   }
 
   ionViewDidLoad() {
