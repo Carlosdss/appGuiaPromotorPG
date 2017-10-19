@@ -1,8 +1,5 @@
 
-@font-face {
-    font-family: "HelveticaNeue-CondensedBold";
-    src: url(../../assets/fonts/HelveticaNeue-CondensedBold.ttf) format('truetype');
-}
+page-inicio {
 
   .containerInicio {
     background-color: rgb(224, 248, 254);
@@ -11,6 +8,7 @@
     background-size: cover;
     min-height: 100%;
     position: relative;
+    padding-bottom: 10px;
   }
 
     ion-col div {
@@ -73,7 +71,7 @@ p{
 
 }
     .signUp{
-      margin-top: 10vh;
+      margin-top: 5vh;
       color: white;
       background-color: rgb(0, 106, 165);
     }
@@ -90,7 +88,7 @@ p{
   color: rgb(0, 106, 165);
   font-size: 0.8em;
   margin-top: 3vh;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 
@@ -106,13 +104,18 @@ bottom: 0;
 
 .footerPicBox1{
   width: 19%;
+  max-height: 60px;
   vertical-align: middle;
   display: inline-block;
 }
 
 .footerPicBox2{
   width: 39%;
+  max-height: 60px;
   padding-top: 2%;
   vertical-align: middle;
   display: inline-block;
+}
+
+
 }

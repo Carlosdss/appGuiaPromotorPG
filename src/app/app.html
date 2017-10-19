@@ -1,1 +1,31 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<!--
+<ion-menu [content]="NAV">
+  <ion-content>
+    <img src="" alt="">
+    <ion-list>
+      <button ion-item name="home" menuClose>
+        <ion-icon item left name="home"></ion-icon>
+        Home
+      </button>
+      <button ion-item name="profile" menuClose>
+          <ion-icon item left name="person"></ion-icon>
+        Perfil
+      </button>
+      </ion-list>
+  </ion-content>
+</ion-menu>
+-->
+
+<ion-menu [content]="NAV">
+  <ion-content>
+    <img src="" alt="">
+    <ion-list>
+      <button ion-item *ngFor="let page of pages" (click)="goToPage(page.component)" menuClose>
+        <ion-icon item-left name="{{ page.icon }}"></ion-icon>
+        {{ page.titulo }}
+      </button>
+    </ion-list>
+  </ion-content>
+</ion-menu> 
+
+<ion-nav #NAV [root]="rootPage"></ion-nav>

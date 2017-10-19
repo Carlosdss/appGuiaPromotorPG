@@ -6,7 +6,7 @@ page-text-component13 {
   }
 
   .boxTextContainer{
-    padding: 22px;
+
     color: rgb(155, 151, 157);
     padding-bottom: 50px;
 
@@ -33,10 +33,9 @@ page-text-component13 {
   }
 
   #footerButtonsBox{
-    margin-top: 10px;
+
   background-color: rgb(0, 183, 251);
-  position: absolute;
-  bottom: 0;
+
 
   ion-segment-button {
     border: 0px;
@@ -58,7 +57,7 @@ page-text-component13 {
     padding: 0px;
     border-radius: 0;
     margin: 0;
-    font-weight: lighter;
+    font-weight: normal;
   }
 
 
@@ -89,7 +88,5 @@ page-text-component13 {
   }
 
   }
-
-
 
 }

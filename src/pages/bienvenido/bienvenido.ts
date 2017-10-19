@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the TextComponent18Page page.
+ * Generated class for the BienvenidoPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-text-component18',
-  templateUrl: 'text-component18.html',
+  selector: 'page-bienvenido',
+  templateUrl: 'bienvenido.html',
 })
-export class TextComponent18 {
+export class Bienvenido {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad TextComponent18Page');
+    console.log('ionViewDidLoad BienvenidoPage');
   }
 
 }

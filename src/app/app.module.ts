@@ -14,10 +14,14 @@ import { Completed65 } from '../pages/completed65/completed65';
 import { Plazos } from '../pages/plazos/plazos';
 import { Operacion } from '../pages/operacion/operacion';
 import { OrganoConcedente } from '../pages/organo-concedente/organo-concedente';
+import { Bienvenido } from '../pages/bienvenido/bienvenido';
 import { ConsejosUtiles } from '../pages/consejos-utiles/consejos-utiles';
 import { TextComponent12 } from '../pages/text-component12/text-component12';
 import { TextComponent13 } from '../pages/text-component13/text-component13';
 import { TextComponent14 } from '../pages/text-component14/text-component14';
+import { TextComponent17 } from '../pages/text-component17/text-component17';
+import { TextComponent18 } from '../pages/text-component18/text-component18';
+import { TextComponent19 } from '../pages/text-component19/text-component19';
 
 @NgModule({
   declarations: [
@@ -32,7 +36,8 @@ import { TextComponent14 } from '../pages/text-component14/text-component14';
     Operacion,
     OrganoConcedente,
     ConsejosUtiles,
-    TextComponent12, TextComponent13, TextComponent14
+    Bienvenido,
+    TextComponent12, TextComponent13, TextComponent14, TextComponent17, TextComponent18, TextComponent19
   ],
   imports: [
     BrowserModule,
@@ -51,7 +56,8 @@ import { TextComponent14 } from '../pages/text-component14/text-component14';
     Operacion,
     OrganoConcedente,
     ConsejosUtiles,
-    TextComponent12, TextComponent13, TextComponent14
+    Bienvenido,
+    TextComponent12, TextComponent13, TextComponent14,  TextComponent17, TextComponent18, TextComponent19
   ],
   providers: [
     StatusBar,

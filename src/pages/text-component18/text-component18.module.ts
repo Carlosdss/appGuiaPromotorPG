@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { TextComponent18Page } from './text-component18';
+import { TextComponent18 } from './text-component18';
 
 @NgModule({
   declarations: [
-    TextComponent18Page,
+    TextComponent18,
   ],
   imports: [
-    IonicPageModule.forChild(TextComponent18Page),
+    IonicPageModule.forChild(TextComponent18),
   ],
 })
 export class TextComponent18PageModule {}

@@ -13,7 +13,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-text-component17',
   templateUrl: 'text-component17.html',
 })
-export class TextComponent17Page {
+export class TextComponent17 {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
